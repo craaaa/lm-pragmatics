@@ -1,0 +1,251 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_true_answer,original_labels_complex,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+HV,1,"A woman is taking a shower. All of a sudden the doorbell rings. She yells, ""Who is there?"" and a man answers, ""Blind man."" She is a charitable lady, so she runs out of the shower naked and opens the door. ","[3, 5, 4, 1, 2]","['AssociativeNonSequitur', 'FunnyNonSequitur', 'NeutralNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward']",4,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A woman is taking a shower. All of a sudden the doorbell rings. She yells, ""Who is there?"" and a man answers, ""Blind man."" She is a charitable lady, so she runs out of the shower naked and opens the door. 
+Punchlines:
+1) The man says, ""My seeing eye dog is 10 years old.""
+2) Then the blind man throws a pie in the woman's face.
+3) The man says, ""I really enjoy going to the symphony.""
+4) The man says, ""Where should I put these blinds, lady?""
+5) The man says, ""Can you spare a little change for a blind man?""
+Answer: ",0,1,True,"{'1': np.float64(0.7733207339799799), '2': np.float64(0.03478309119825026), '3': np.float64(0.03602768366368697), '4': np.float64(0.07899968645951588), '5': np.float64(0.07686880469856704)}",0.07899968645951588,1,False,AssociativeNonSequitur,pythia-1.4b
+HV,2,"The neighborhood borrower approached Mr. Smith on Saturday and asked, ""Say, Smith, are you using your lawnmower this afternoon?"" ""Yes, I am,"" Smith replied warily. The neighborhood borrower said:","[5, 2, 3, 1, 4]","['FunnyNonSequitur', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'CorrectNonLiteral', 'NeutralNonSequitur']",4,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: The neighborhood borrower approached Mr. Smith on Saturday and asked, ""Say, Smith, are you using your lawnmower this afternoon?"" ""Yes, I am,"" Smith replied warily. The neighborhood borrower said:
+Punchlines:
+1) ""OOPS!"" as the rake he stepped on barely missed his face.
+2) ""Oh well, can I borrow it when you're done then?""
+3) ""The birds are always eating my grass seed.""
+4) ""Fine, then you won't need your golf clubs. I'll just borrow them.""
+5) ""According to the weather report, it will rain tomorrow.""
+Answer: ",0,1,True,"{'1': np.float64(0.5530186612368351), '2': np.float64(0.0448656736825696), '3': np.float64(0.07310920238179176), '4': np.float64(0.15968517912039268), '5': np.float64(0.169321283578411)}",0.15968517912039268,1,False,FunnyNonSequitur,pythia-1.4b
+HV,3,"A worried patient tells the doctor that he is still exhausted when he gets home from work. ""Don't worry,"" said the doctor. ""Just have a drink to wake you up."" ""But last week you told me to give up drinking,"" said the patient. ""Well,"" the doctor replied:","[1, 3, 4, 5, 2]","['CorrectNonLiteral', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur', 'IncorrectStraightforward']",1,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A worried patient tells the doctor that he is still exhausted when he gets home from work. ""Don't worry,"" said the doctor. ""Just have a drink to wake you up."" ""But last week you told me to give up drinking,"" said the patient. ""Well,"" the doctor replied:
+Punchlines:
+1) ""Medical science has progressed enormously since then.""
+2) ""I can't cure everything you know.""
+3) ""Is it raining outside?""
+4) ""Ouch, I got ants in my pants.""
+5) ""You must do as you are told.""
+Answer: ",0,1,True,"{'1': np.float64(0.574439907051518), '2': np.float64(0.037740705799129505), '3': np.float64(0.05687725309737038), '4': np.float64(0.1564308784838762), '5': np.float64(0.17451125556810584)}",0.574439907051518,1,True,CorrectNonLiteral,pythia-1.4b
+HV,4,"Martha walked into a pastry shop. After surveying all the pastries, she decided on a chocolate pie. ""I'll take that one,"" Martha said to the attendant, ""the whole thing."" ""Shall I cut it into four or eight pieces?"" the attendant asked. ","[4, 3, 1, 2, 5]","['NeutralNonSequitur', 'AssociativeNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward', 'FunnyNonSequitur']",3,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: Martha walked into a pastry shop. After surveying all the pastries, she decided on a chocolate pie. ""I'll take that one,"" Martha said to the attendant, ""the whole thing."" ""Shall I cut it into four or eight pieces?"" the attendant asked. 
+Punchlines:
+1) Martha said, ""My leg is hurting so much.""
+2) Martha said, ""You make the most delicious sweet rolls in town.""
+3) Martha said, ""Four pieces, please; I'm on a diet.""
+4) Martha said: ""Well, there are five people for dessert tonight, so eight pieces will be about right.""
+5) Then the attendant squirted whipped cream in Martha's face.
+Answer: ",0,1,True,"{'1': np.float64(0.5257836387342124), '2': np.float64(0.050065257021969435), '3': np.float64(0.04435535940733906), '4': np.float64(0.27706850744696443), '5': np.float64(0.10272723738951471)}",0.04435535940733906,1,False,NeutralNonSequitur,pythia-1.4b
+HV,5,"A man went to an eye doctor and asked, ""Doctor, will I be able to read after getting my glasses?"" ""Yes, of course,"" said the doctor, ""why not?"" The man says:","[5, 3, 2, 4, 1]","['FunnyNonSequitur', 'AssociativeNonSequitur', 'IncorrectStraightforward', 'NeutralNonSequitur', 'CorrectNonLiteral']",5,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A man went to an eye doctor and asked, ""Doctor, will I be able to read after getting my glasses?"" ""Yes, of course,"" said the doctor, ""why not?"" The man says:
+Punchlines:
+1) ""There is a mouse in your office!"" he said, and jumped on the doctor's lap.
+2) ""There are a number of frames I can choose from.""
+3) ""I am not sure that glasses will help me see well!""
+4) ""I'm spending my vacation in the Bahamas this year.""
+5) ""Nice! I have never been able to read before.""
+Answer: ",0,1,True,"{'1': np.float64(0.5685738688225649), '2': np.float64(0.041348555654973994), '3': np.float64(0.07088791666184367), '4': np.float64(0.14097745600603537), '5': np.float64(0.178212202854582)}",0.178212202854582,1,False,FunnyNonSequitur,pythia-1.4b
+HV,6,"At the cocktail party, one woman said to another, ""Aren't you wearing your wedding ring on the wrong finger?"" The other replied:","[5, 1, 4, 3, 2]","['FunnyNonSequitur', 'CorrectNonLiteral', 'NeutralNonSequitur', 'AssociativeNonSequitur', 'IncorrectStraightforward']",2,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: At the cocktail party, one woman said to another, ""Aren't you wearing your wedding ring on the wrong finger?"" The other replied:
+Punchlines:
+1) ""Sorry,"" she said, as she stumbled and poured her drink on her friend's lap.
+2) ""Yes I am. I married the wrong man.""
+3) ""I love this kind of weather.""
+4) ""Don't you love cocktail parties?""
+5) ""It is perfectly fine where it is.""
+Answer: ",0,1,True,"{'1': np.float64(0.5137943184598758), '2': np.float64(0.0375110488932223), '3': np.float64(0.07344306841812391), '4': np.float64(0.1585455251079328), '5': np.float64(0.2167060391208453)}",0.0375110488932223,1,False,FunnyNonSequitur,pythia-1.4b
+HV,7,"Two men were riding on a train for the very first time. They had brought along bananas to eat on the trip. Just as they intended to eat the bananas, the train entered a dark tunnel. ""Have you eaten your banana yet?"" cried the first man. ""No,"" replied his friend. ""Well don't touch it!"" warned the first man... ","[3, 5, 4, 1, 2]","['AssociativeNonSequitur', 'FunnyNonSequitur', 'NeutralNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward']",4,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: Two men were riding on a train for the very first time. They had brought along bananas to eat on the trip. Just as they intended to eat the bananas, the train entered a dark tunnel. ""Have you eaten your banana yet?"" cried the first man. ""No,"" replied his friend. ""Well don't touch it!"" warned the first man... 
+Punchlines:
+1) ""I like to eat a lot.""
+2) ""That man is going to slip on this banana peel.""
+3) ""I am going to be out of town for a while.""
+4) ""I took one bite and went blind.""
+5) ""It tastes horrible.""
+Answer: ",0,1,True,"{'1': np.float64(0.714238926188513), '2': np.float64(0.05214509059191201), '3': np.float64(0.054222314853511235), '4': np.float64(0.09442256087142611), '5': np.float64(0.08497110749463772)}",0.09442256087142611,1,False,AssociativeNonSequitur,pythia-1.4b
+HV,8,"A tenant had not paid his room rent for several weeks. Tomorrow was his last chance to pay his rent before the landlord would kick him out. ""See here,"" the landlord said, ""I'll meet you half way. I'm ready to forget half of what you owe me.""","[4, 3, 1, 2, 5]","['NeutralNonSequitur', 'AssociativeNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward', 'FunnyNonSequitur']",3,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A tenant had not paid his room rent for several weeks. Tomorrow was his last chance to pay his rent before the landlord would kick him out. ""See here,"" the landlord said, ""I'll meet you half way. I'm ready to forget half of what you owe me.""
+Punchlines:
+1) The tenant replied, ""I really like to read Shakespeare.""
+2) The tenant replied, ""Half the city is under rent control.""
+3) The tenant replied, ""Great, I'm ready to forget the other half.""
+4) The tenant replied, ""Thank you, I can certainly pay half.""
+5) Then the tenant's pants fell down.
+Answer: ",0,1,True,"{'1': np.float64(0.5117685179414014), '2': np.float64(0.040241695492516626), '3': np.float64(0.06306225476907469), '4': np.float64(0.1860757147459187), '5': np.float64(0.19885181705108865)}",0.06306225476907469,1,False,NeutralNonSequitur,pythia-1.4b
+HV,9,"On his first flight while learning to skydive, a man nervously anticipated his first jump, so he said to his instructor, ""I packed the parachute myself, but I'm sure it won't open."" The instructor says,","[5, 4, 3, 2, 1]","['FunnyNonSequitur', 'NeutralNonSequitur', 'AssociativeNonSequitur', 'IncorrectStraightforward', 'CorrectNonLiteral']",5,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: On his first flight while learning to skydive, a man nervously anticipated his first jump, so he said to his instructor, ""I packed the parachute myself, but I'm sure it won't open."" The instructor says,
+Punchlines:
+1) ""There is a mouse!"" and jumps out of the plane without a parachute.
+2) ""The Red Sox won yesterday.""
+3) ""I used to fly this type of aircraft during the war.""
+4) ""Don't worry, you have a second parachute. Everything will be fine.""
+5) ""In my opinion, you are jumping to a hasty conclusion.""
+Answer: ",0,1,True,"{'1': np.float64(0.5515591146431978), '2': np.float64(0.0563453108213556), '3': np.float64(0.08558138305216868), '4': np.float64(0.14787136963744718), '5': np.float64(0.1586428218458306)}",0.1586428218458306,1,False,FunnyNonSequitur,pythia-1.4b
+HV,10,"A ship is cruising in the Caribbean. One day, a girl falls overboard and her father screams: ""I'll give half my fortune to the person who saves her."" A fellow jumps in and saves the girl. The father says, ""I'll keep my promise. Here's half my fortune."" The fellow replies:","[5, 4, 3, 2, 1]","['FunnyNonSequitur', 'NeutralNonSequitur', 'AssociativeNonSequitur', 'IncorrectStraightforward', 'CorrectNonLiteral']",5,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A ship is cruising in the Caribbean. One day, a girl falls overboard and her father screams: ""I'll give half my fortune to the person who saves her."" A fellow jumps in and saves the girl. The father says, ""I'll keep my promise. Here's half my fortune."" The fellow replies:
+Punchlines:
+1) ""My pleasure,"" he said as he tipped his hat to the girl and his toupee slipped off.
+2) ""I hope it's time to eat dinner soon.""
+3) ""I usually get seasick on boats.""
+4) ""Thank you, I need the money.""
+5) ""I don't want the money; all I want to know is who shoved me!""
+Answer: ",0,1,True,"{'1': np.float64(0.4465672686258012), '2': np.float64(0.04421614733036496), '3': np.float64(0.0630897803337903), '4': np.float64(0.15553993985558875), '5': np.float64(0.2905868638544547)}",0.2905868638544547,1,False,FunnyNonSequitur,pythia-1.4b
+HV,11,"A woman was telling her friend, ""I made my husband a millionaire."" The friend replies, ""And what was he before you married him?"" asked the friend. The woman replies:","[2, 1, 5, 3, 4]","['IncorrectStraightforward', 'CorrectNonLiteral', 'FunnyNonSequitur', 'AssociativeNonSequitur', 'NeutralNonSequitur']",2,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A woman was telling her friend, ""I made my husband a millionaire."" The friend replies, ""And what was he before you married him?"" asked the friend. The woman replies:
+Punchlines:
+1) ""A lonely guy.""
+2) ""A multi-millionaire.""
+3) ""Watch out, the wind is blowing away your wig!""
+4) ""We have been married for 10 years.""
+5) ""My favorite drink is a martini.""
+Answer: ",0,1,True,"{'1': np.float64(0.5223662014882492), '2': np.float64(0.04043820988972505), '3': np.float64(0.06932722092004051), '4': np.float64(0.1378736419056939), '5': np.float64(0.2299947257962913)}",0.04043820988972505,1,False,IncorrectStraightforward,pythia-1.4b
+HV,12,"A boy from New York was being led through the swamps of Florida. ""Is it true that an alligator won't attack you if you carry a flashlight?"" asked the boy. The guide replied:","[2, 3, 5, 4, 1]","['IncorrectStraightforward', 'AssociativeNonSequitur', 'FunnyNonSequitur', 'NeutralNonSequitur', 'CorrectNonLiteral']",5,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A boy from New York was being led through the swamps of Florida. ""Is it true that an alligator won't attack you if you carry a flashlight?"" asked the boy. The guide replied:
+Punchlines:
+1) ""That depends on how aggressive the alligator is.""
+2) ""Are you afraid of alligators?""
+3) ""I stepped in a puddle of water!""
+4) ""What do your parents do for a living.""
+5) ""That depends on how fast you carry the flashlight.""
+Answer: ",0,1,True,"{'1': np.float64(0.6355346124854636), '2': np.float64(0.04392974064349216), '3': np.float64(0.06467083351457188), '4': np.float64(0.12368621127559165), '5': np.float64(0.1321786020808807)}",0.1321786020808807,1,False,IncorrectStraightforward,pythia-1.4b
+HV,13,"A woman decides to prepare her will. She tells her lawyer she had two final requests. First, she wanted to be cremated, and second she wanted her ashes scattered all over the local mall. ""Why the mall?"" asked the lawyer. She replied,","[3, 1, 5, 4, 2]","['AssociativeNonSequitur', 'CorrectNonLiteral', 'FunnyNonSequitur', 'NeutralNonSequitur', 'IncorrectStraightforward']",2,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A woman decides to prepare her will. She tells her lawyer she had two final requests. First, she wanted to be cremated, and second she wanted her ashes scattered all over the local mall. ""Why the mall?"" asked the lawyer. She replied,
+Punchlines:
+1) ""They sell the best ice-cream in this mall.""
+2) ""Then I'll be sure my daughter visits me twice a week.""
+3) ""This is my wish"" and then the lawyer's pants fell down.
+4) ""Are you feeling better today?""
+5) ""That is the place I love the most.""
+Answer: ",0,1,True,"{'1': np.float64(0.6665077940135657), '2': np.float64(0.050995598929172076), '3': np.float64(0.06782260751187927), '4': np.float64(0.10586959315708086), '5': np.float64(0.10880440638830188)}",0.050995598929172076,1,False,AssociativeNonSequitur,pythia-1.4b
+HV,14,"A U.S. airline executive, following government requirements, installed smoke detectors in the cargo area of planes. A spokesperson for the airline commented:","[4, 5, 3, 2, 1]","['NeutralNonSequitur', 'FunnyNonSequitur', 'AssociativeNonSequitur', 'IncorrectStraightforward', 'CorrectNonLiteral']",5,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A U.S. airline executive, following government requirements, installed smoke detectors in the cargo area of planes. A spokesperson for the airline commented:
+Punchlines:
+1) ""I'm a very lucky man.""
+2) ""Let's have a pilot pillow fight.""
+3) ""I am pleased to inform you that this company has increased its sales this year.""
+4) ""Safety is our priority.""
+5) ""If we can't save the passengers, maybe we can save their luggage!""
+Answer: ",0,1,True,"{'1': np.float64(0.45244865049289673), '2': np.float64(0.042747011099055515), '3': np.float64(0.06367148245211043), '4': np.float64(0.21539784868271344), '5': np.float64(0.2257350072732239)}",0.2257350072732239,1,False,NeutralNonSequitur,pythia-1.4b
+HV,15,"A famous French mime died of a cerebral hemorrhage, the school he founded confirmed today. The doctor said:","[5, 2, 4, 1, 3]","['FunnyNonSequitur', 'IncorrectStraightforward', 'NeutralNonSequitur', 'CorrectNonLiteral', 'AssociativeNonSequitur']",4,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A famous French mime died of a cerebral hemorrhage, the school he founded confirmed today. The doctor said:
+Punchlines:
+1) The principal of the school slipped on a banana peel and fell in front of the class.
+2) ""His talents will be greatly missed.""
+3) ""You can buy very good wine in France.""
+4) ""He went quietly.""
+5) ""Mime is a beautiful form of art.""
+Answer: ",0,1,True,"{'1': np.float64(0.45061757947177394), '2': np.float64(0.04341371003792598), '3': np.float64(0.10829270480087484), '4': np.float64(0.20310925590962645), '5': np.float64(0.19456674977979882)}",0.20310925590962645,1,False,FunnyNonSequitur,pythia-1.4b
+HV,16,"Two attorneys went into a diner and ordered drinks. Then they produced sandwiches from their briefcases and started to eat. The owner became quite concerned and told them, ""You can't eat your own sandwiches in here!"" The attorneys looked at each other and","[3, 5, 1, 2, 4]","['AssociativeNonSequitur', 'FunnyNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward', 'NeutralNonSequitur']",3,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: Two attorneys went into a diner and ordered drinks. Then they produced sandwiches from their briefcases and started to eat. The owner became quite concerned and told them, ""You can't eat your own sandwiches in here!"" The attorneys looked at each other and
+Punchlines:
+1) said, ""We like sandwiches with a lot of mayonnaise.""
+2) threw their drinks in the owner's face.
+3) shrugged their shoulders and exchanged sandwiches.
+4) said, ""We are sorry; we didn't know your rules.""
+5) asked the owner where the restroom was.
+Answer: ",0,1,True,"{'1': np.float64(0.7299224465962889), '2': np.float64(0.04814360382811127), '3': np.float64(0.036057893190574564), '4': np.float64(0.0878605405525694), '5': np.float64(0.09801551583245598)}",0.036057893190574564,1,False,AssociativeNonSequitur,pythia-1.4b
+HV,17,"A young man hired by a supermarket reported to his first day of work. The manager greeted him with a warm handshake and a smile, gave him a broom and said, ""Your first job will be to sweep out the store."" ""But I'm a college graduate,"" the young man replied indignantly. ""Oh, I'm sorry. I didn't know that,"" said the manager.","[5, 1, 4, 3, 2]","['FunnyNonSequitur', 'CorrectNonLiteral', 'NeutralNonSequitur', 'AssociativeNonSequitur', 'IncorrectStraightforward']",2,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A young man hired by a supermarket reported to his first day of work. The manager greeted him with a warm handshake and a smile, gave him a broom and said, ""Your first job will be to sweep out the store."" ""But I'm a college graduate,"" the young man replied indignantly. ""Oh, I'm sorry. I didn't know that,"" said the manager.
+Punchlines:
+1) Then the young man chased the manager around with the broom.
+2) ""Here, give me the broom, I'll show you how,"" said the manager.
+3) ""I got A and A+ in all my courses,"" said the young man.
+4) ""I wish I knew how to cook pasta,"" said the young man.
+5) ""I'll give you something else to do then,"" said the manager.
+Answer: ",0,1,True,"{'1': np.float64(0.5666798296278677), '2': np.float64(0.0495159316774698), '3': np.float64(0.0663711994961797), '4': np.float64(0.15251980704281656), '5': np.float64(0.16491323215566642)}",0.0495159316774698,1,False,FunnyNonSequitur,pythia-1.4b
+HV,18,"Two dog owners are arguing about which dog is smarter. One says: ""My dog is so smart that every morning, he waits for the paperboy to come around and then he takes the newspaper and brings it to me. ""I know..."" replies the other,","[4, 2, 1, 5, 3]","['NeutralNonSequitur', 'IncorrectStraightforward', 'CorrectNonLiteral', 'FunnyNonSequitur', 'AssociativeNonSequitur']",3,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: Two dog owners are arguing about which dog is smarter. One says: ""My dog is so smart that every morning, he waits for the paperboy to come around and then he takes the newspaper and brings it to me. ""I know..."" replies the other,
+Punchlines:
+1) ""We should be having dinner now.""
+2) ""I have seen that.""
+3) ""My dog told me.""
+4) ""My dog has pooped all over my shoes.""
+5) ""I am having fun.""
+Answer: ",0,1,True,"{'1': np.float64(0.56567131834863), '2': np.float64(0.06272715512012661), '3': np.float64(0.06970438302213863), '4': np.float64(0.15831325549006872), '5': np.float64(0.14358388801903593)}",0.06970438302213863,1,False,NeutralNonSequitur,pythia-1.4b
+HV,19,"A man walks into a supermarket and buys: 1 bar of soap, 1 apple, 1 roll of toilet tissue, a single serving of cereal, and 1 pint of milk. The girl at the check out looks at him and says, ""Single, aren't you?"" The man replies very sarcastically, ""How did you guess?"" She says,","[3, 4, 5, 1, 2]","['AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward']",4,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A man walks into a supermarket and buys: 1 bar of soap, 1 apple, 1 roll of toilet tissue, a single serving of cereal, and 1 pint of milk. The girl at the check out looks at him and says, ""Single, aren't you?"" The man replies very sarcastically, ""How did you guess?"" She says,
+Punchlines:
+1) ""Cash or credit card?""
+2) ""I don't smoke.""
+3) ""Look,"" she said as she poured flour over the man's head.
+4) ""Because you're really ugly.""
+5) ""I'm very perceptive.""
+Answer: ",0,1,True,"{'1': np.float64(0.6078418256995216), '2': np.float64(0.06018449090860046), '3': np.float64(0.06307280493316512), '4': np.float64(0.12110203358415492), '5': np.float64(0.14779884487455786)}",0.12110203358415492,1,False,AssociativeNonSequitur,pythia-1.4b
+HV,20,"A neighborhood kid was looking to earn money. He knocked on the door of one house and asked the owner if he had any jobs for him to do. ""Well, you can paint my porch,"" he said, and handed the boy a can of red paint and a brush. The boy was eager to work, and the man went inside. 2 hours later, the boy knocked on the door again and said ""I'm done painting, but I've got to tell you,","[5, 4, 3, 1, 2]","['FunnyNonSequitur', 'NeutralNonSequitur', 'AssociativeNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward']",4,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A neighborhood kid was looking to earn money. He knocked on the door of one house and asked the owner if he had any jobs for him to do. ""Well, you can paint my porch,"" he said, and handed the boy a can of red paint and a brush. The boy was eager to work, and the man went inside. 2 hours later, the boy knocked on the door again and said ""I'm done painting, but I've got to tell you,
+Punchlines:
+1) ""You gave me too much paint,"" he said, then poured it on the man's feet.
+2) ""I love sports.""
+3) ""It has been a pleasure to ride in your car.""
+4) ""That's not a Porsche, it's a Ferrari.""
+5) ""This is the most difficult job I have done this summer.""
+Answer: ",0,1,True,"{'1': np.float64(0.5896039061171978), '2': np.float64(0.07554764115153526), '3': np.float64(0.0706937534346415), '4': np.float64(0.13104551634680212), '5': np.float64(0.13310918294982332)}",0.13104551634680212,1,False,FunnyNonSequitur,pythia-1.4b
+HV,21,"An 8 year-old girl went to her dad and asked him, ""Daddy, what is sex?"" The father is a little surprised by the question, and gives her a detailed explanation. The girl looks at him with her mouth hanging open, and the father asks, ""Why did you ask this question?"" The girl replies,","[2, 1, 4, 5, 3]","['IncorrectStraightforward', 'CorrectNonLiteral', 'NeutralNonSequitur', 'FunnyNonSequitur', 'AssociativeNonSequitur']",2,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: An 8 year-old girl went to her dad and asked him, ""Daddy, what is sex?"" The father is a little surprised by the question, and gives her a detailed explanation. The girl looks at him with her mouth hanging open, and the father asks, ""Why did you ask this question?"" The girl replies,
+Punchlines:
+1) ""I'm old enough to learn those things.""
+2) ""Mom told me to tell you that dinner would be ready in just a couple of secs.""
+3) ""Those are beautiful roses.""
+4) ""Let's play,"" pulls out a water gun and soaks her father.
+5) ""Ms. Smith just had her baby.""
+Answer: ",0,1,True,"{'1': np.float64(0.6100964377845511), '2': np.float64(0.03721612143839617), '3': np.float64(0.04891966874332867), '4': np.float64(0.1382746658615948), '5': np.float64(0.16549310617212923)}",0.03721612143839617,1,False,IncorrectStraightforward,pythia-1.4b
+HV,22,"Mr. Miller and Mr. Wilson were at the auto show and began to talk about their children. Touching a shiny new car on the fender, Mr. Miller said, ""Your son drives like lightning, doesn't he?"" and Mr. Wilson answered:","[5, 1, 2, 3, 4]","['FunnyNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur']",2,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: Mr. Miller and Mr. Wilson were at the auto show and began to talk about their children. Touching a shiny new car on the fender, Mr. Miller said, ""Your son drives like lightning, doesn't he?"" and Mr. Wilson answered:
+Punchlines:
+1) ""Yes"" and then cracks a raw egg on Mr. Miller's head.
+2) ""Yes, he's always striking trees.""
+3) ""Yes, I'm afraid to lend him our car.""
+4) ""Yes, I'm considering buying this car.""
+5) ""Yes, I hope my boss gives me a raise soon.""
+Answer: ",0,1,True,"{'1': np.float64(0.666794012843284), '2': np.float64(0.05141763319492149), '3': np.float64(0.05042312614383073), '4': np.float64(0.11274599107750417), '5': np.float64(0.11861923674045964)}",0.05141763319492149,1,False,FunnyNonSequitur,pythia-1.4b
+HV,23,"A guy is in a bar trying to begin a relationship with a girl. After they have talked for a while, he asks her for her phone number. ""It's in the phone book,"" she says. ""Fine,"" he answers, ""What's your last name?""","[4, 2, 3, 5, 1]","['NeutralNonSequitur', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'FunnyNonSequitur', 'CorrectNonLiteral']",5,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A guy is in a bar trying to begin a relationship with a girl. After they have talked for a while, he asks her for her phone number. ""It's in the phone book,"" she says. ""Fine,"" he answers, ""What's your last name?""
+Punchlines:
+1) ""What do you think of the recent elections?"" she answers.
+2) ""Johnson.""
+3) ""This is my favorite bar,"" she replies.
+4) The guy slipped on a banana peel and split his pants.
+5) ""That is in the phone book too,"" she answers.
+Answer: ",0,1,True,"{'1': np.float64(0.6088594155153038), '2': np.float64(0.04208588436644321), '3': np.float64(0.06646952993946087), '4': np.float64(0.113511016769406), '5': np.float64(0.16907415340938622)}",0.16907415340938622,1,False,NeutralNonSequitur,pythia-1.4b
+HV,24,"As a man was driving down the freeway, his cell phone rang. Answering, he heard his wife's voice urgently warning him, ""Herman, I just heard on the news that there's a car going the wrong way on 28. Please be careful!"" ""Geez,"" said Herman,","[3, 4, 5, 1, 2]","['AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur', 'CorrectNonLiteral', 'IncorrectStraightforward']",4,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: As a man was driving down the freeway, his cell phone rang. Answering, he heard his wife's voice urgently warning him, ""Herman, I just heard on the news that there's a car going the wrong way on 28. Please be careful!"" ""Geez,"" said Herman,
+Punchlines:
+1) ""I'm running out of gas.""
+2) ""I'm getting hungry.""
+3) ""Who left this raw egg on my seat!""
+4) ""It's not just one car. It's hundreds of them!""
+5) ""How can anybody do something like that!""
+Answer: ",0,1,True,"{'1': np.float64(0.670993586422343), '2': np.float64(0.04477850963523324), '3': np.float64(0.047666475385305766), '4': np.float64(0.09591353213764067), '5': np.float64(0.14064789641947736)}",0.09591353213764067,1,False,AssociativeNonSequitur,pythia-1.4b
+HV,25,"A guy walks into a bar and demands to know ""Who's the strongest in here?"" The toughest guy looks at him and says ""I am the strongest around here!"" The other guy politely asks,","[2, 1, 5, 4, 3]","['IncorrectStraightforward', 'CorrectNonLiteral', 'FunnyNonSequitur', 'NeutralNonSequitur', 'AssociativeNonSequitur']",2,"['CorrectNonLiteral', 'IncorrectStraightforward', 'AssociativeNonSequitur', 'NeutralNonSequitur', 'FunnyNonSequitur']",False,"Task: You will read jokes that are missing their punch lines. A punch line is a funny line that finishes the joke. Each joke will be followed by five possible endings. Please choose the ending that makes the joke funny. The answer options are 1, 2, 3, 4, or 5.
+
+Joke: A guy walks into a bar and demands to know ""Who's the strongest in here?"" The toughest guy looks at him and says ""I am the strongest around here!"" The other guy politely asks,
+Punchlines:
+1) ""How do you know you are the strongest here?
+2) ""Can you help me push my car to the gas station?""
+3) ""Who put that chewing gum on your hair?""
+4) ""Are the birds about to leave the region?""
+5) ""Where do you lift weights?""
+Answer: ",0,1,True,"{'1': np.float64(0.8001113766682818), '2': np.float64(0.02716524608367392), '3': np.float64(0.031145108076665345), '4': np.float64(0.05215824073517741), '5': np.float64(0.08942002843620153)}",0.02716524608367392,1,False,IncorrectStraightforward,pythia-1.4b
