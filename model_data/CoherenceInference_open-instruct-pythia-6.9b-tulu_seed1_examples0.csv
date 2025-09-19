@@ -1,0 +1,281 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_true_answer,original_labels_complex,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+CIV,1,Mary's exam was about to start. Her palms were sweaty. ,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Mary's exam was about to start. Her palms were sweaty. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.3942009561511044), '2': np.float64(0.6057990438488957)}",0.3942009561511044,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,2,Laura got a lot of mail today. Some of her friends had remembered her birthday.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Laura got a lot of mail today. Some of her friends had remembered her birthday.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.2658804730998169), '2': np.float64(0.734119526900183)}",0.2658804730998169,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,3,Sometimes a truck drives by the house. The dishes start to rattle.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Sometimes a truck drives by the house. The dishes start to rattle.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.341582499438317), '2': np.float64(0.658417500561683)}",0.658417500561683,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,4,The lights have been on since last night. The car doesn't start.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The lights have been on since last night. The car doesn't start.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,1,True,"{'1': np.float64(0.6909762888804933), '2': np.float64(0.30902371111950677)}",0.6909762888804933,1,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,5,Susan felt her baby's forehead with her palm. She begged her family doctor to come at once.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Susan felt her baby's forehead with her palm. She begged her family doctor to come at once.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.32423539898095244), '2': np.float64(0.6757646010190476)}",0.6757646010190476,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,6,Bob was looking forward to the long holiday. He turned on the TV for a weather report.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bob was looking forward to the long holiday. He turned on the TV for a weather report.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.27357439102480946), '2': np.float64(0.7264256089751905)}",0.27357439102480946,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,7,Sharon's car was totally wrecked last week. She went to the bank hoping to get a loan.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Sharon's car was totally wrecked last week. She went to the bank hoping to get a loan.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,1,True,"{'1': np.float64(0.6825737344123242), '2': np.float64(0.31742626558767584)}",0.6825737344123242,1,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,8,Cathy worked very hard and became exhausted. She was carried unconscious to the hospital. ,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Cathy worked very hard and became exhausted. She was carried unconscious to the hospital. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.3611647202343208), '2': np.float64(0.6388352797656792)}",0.3611647202343208,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,9,A dog ran toward a little girl eating ice cream. She was knocked down and shouted for her mother. ,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: A dog ran toward a little girl eating ice cream. She was knocked down and shouted for her mother. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.3849121444839335), '2': np.float64(0.6150878555160665)}",0.6150878555160665,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,10,Jane skipped her English class every now and then. She began to worry about her final exam.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jane skipped her English class every now and then. She began to worry about her final exam.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,1,True,"{'1': np.float64(0.624293533567992), '2': np.float64(0.3757064664320079)}",0.3757064664320079,1,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,11,Vicky was planning her first trip to Europe. She put her favorite bathing suit in her bag.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Vicky was planning her first trip to Europe. She put her favorite bathing suit in her bag.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.26133092567451033), '2': np.float64(0.7386690743254898)}",0.7386690743254898,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,12,Dick tripped over a chair and hit his head. A mirror fell down and shattered on the floor. ,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Dick tripped over a chair and hit his head. A mirror fell down and shattered on the floor. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.47463117774496766), '2': np.float64(0.5253688222550323)}",0.47463117774496766,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,13,The Senator wanted to practice corporate law. He decided not to run for re-election.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The Senator wanted to practice corporate law. He decided not to run for re-election.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.4301473485858429), '2': np.float64(0.5698526514141572)}",0.4301473485858429,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,14,Joey got angry at his brother in a game. The next day his body was covered with bruises.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Joey got angry at his brother in a game. The next day his body was covered with bruises.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,1,True,"{'1': np.float64(0.600188359260205), '2': np.float64(0.39981164073979497)}",0.600188359260205,1,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,15,The rain storm was approaching the city. The papers on the desk blew off onto the floor.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The rain storm was approaching the city. The papers on the desk blew off onto the floor.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.43398146480389854), '2': np.float64(0.5660185351961015)}",0.43398146480389854,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,16,Greg was working too hard to have enough rest. His driving became more dangerous each day.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Greg was working too hard to have enough rest. His driving became more dangerous each day.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,1,True,"{'1': np.float64(0.6926419831347361), '2': np.float64(0.30735801686526387)}",0.30735801686526387,1,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,17,Lisa commuted to her office an hour each way. She opened the paper to look at the apartment listing.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Lisa commuted to her office an hour each way. She opened the paper to look at the apartment listing.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.3960681662740417), '2': np.float64(0.6039318337259583)}",0.6039318337259583,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,18,Richard remembered it was a big day for Karen. He spent the whole day shopping for a present.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Richard remembered it was a big day for Karen. He spent the whole day shopping for a present.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.2925952990117391), '2': np.float64(0.707404700988261)}",0.2925952990117391,2,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,19,Jerry read the copy of his manuscript. The next day he yelled at his secretary.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jerry read the copy of his manuscript. The next day he yelled at his secretary.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,1,True,"{'1': np.float64(0.5350984286266115), '2': np.float64(0.4649015713733885)}",0.4649015713733885,1,False,IncorrectIncoherent,open-instruct-pythia-6.9b-tulu
+CIV,20,Cleo brushed against a table with a vase on it. The water spilled onto the expensive carpet.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Cleo brushed against a table with a vase on it. The water spilled onto the expensive carpet.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.32252598306437263), '2': np.float64(0.6774740169356273)}",0.6774740169356273,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,21,Mary's exam was about to start. Some friends had remembered her birthday.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Mary's exam was about to start. Some friends had remembered her birthday.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.26284183737131667), '2': np.float64(0.7371581626286834)}",0.26284183737131667,2,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,22,The lights have been on since last night. He turned on the TV for a weather report.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The lights have been on since last night. He turned on the TV for a weather report.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.35577489351363034), '2': np.float64(0.6442251064863697)}",0.6442251064863697,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,23,Bob was looking forward to the long holiday. He begged his family doctor to come at once.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bob was looking forward to the long holiday. He begged his family doctor to come at once.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.20946968133032529), '2': np.float64(0.7905303186696748)}",0.20946968133032529,2,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,24,Sharon's car was totally wrecked last week. She was knocked down and shouted for her mother,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Sharon's car was totally wrecked last week. She was knocked down and shouted for her mother
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,1,True,"{'1': np.float64(0.6076631698328916), '2': np.float64(0.39233683016710835)}",0.6076631698328916,1,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,25,Allen told his mother that he had a car accident. She began to worry about her final exam.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Allen told his mother that he had a car accident. She began to worry about her final exam.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.44167300566462553), '2': np.float64(0.5583269943353744)}",0.5583269943353744,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,26,A dog ran toward a little girl eating ice cream. She went to the bank hoping to get a loan. ,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: A dog ran toward a little girl eating ice cream. She went to the bank hoping to get a loan. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.3380771241500058), '2': np.float64(0.6619228758499942)}",0.6619228758499942,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,27,Jane skipped her English class every now and then. She got upset and began to cry suddenly. ,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jane skipped her English class every now and then. She got upset and began to cry suddenly. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,1,True,"{'1': np.float64(0.523420348936324), '2': np.float64(0.47657965106367595)}",0.523420348936324,1,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,28,Bart sat next to a pretty girl in his class. She was carried unconscious to a hospital. ,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bart sat next to a pretty girl in his class. She was carried unconscious to a hospital. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.3259495159352553), '2': np.float64(0.6740504840647448)}",0.6740504840647448,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,29,Vicky was planning her first trip to Europe. A mirror fell down and shattered on the floor.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Vicky was planning her first trip to Europe. A mirror fell down and shattered on the floor.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.43590151997738263), '2': np.float64(0.5640984800226173)}",0.5640984800226173,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,30,Dick tripped over a chair and hit his head. He decided not to run for re-election. ,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Dick tripped over a chair and hit his head. He decided not to run for re-election. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.4610167793123159), '2': np.float64(0.5389832206876841)}",0.4610167793123159,2,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,31,Tony had a fight with his friend near a pond. His driving became more dangerous each day.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Tony had a fight with his friend near a pond. His driving became more dangerous each day.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,1,True,"{'1': np.float64(0.6132365536207204), '2': np.float64(0.38676344637927973)}",0.38676344637927973,1,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,32,The rain storm was approaching the city. The next day the boy's body was covered with bruises.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The rain storm was approaching the city. The next day the boy's body was covered with bruises.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,1,True,"{'1': np.float64(0.5506073655352403), '2': np.float64(0.4493926344647596)}",0.4493926344647596,1,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,33,"Bill considered various high-tech careers. He walked home, soaking wet, to change his clothes.","[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bill considered various high-tech careers. He walked home, soaking wet, to change his clothes.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.3433417294618181), '2': np.float64(0.6566582705381818)}",0.3433417294618181,2,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,34,Ed wanted to leave his father's business. He decided not to go out with him any more.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Ed wanted to leave his father's business. He decided not to go out with him any more.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,1,True,"{'1': np.float64(0.5058591067938315), '2': np.float64(0.4941408932061685)}",0.5058591067938315,1,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,35,Ann had been absent from school for weeks. The papers on the desk blew off onto the floor.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Ann had been absent from school for weeks. The papers on the desk blew off onto the floor.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,1,True,"{'1': np.float64(0.5486734944129985), '2': np.float64(0.45132650558700155)}",0.45132650558700155,1,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,36,Greg was working too hard to have enough rest. He spent the whole day shopping for a present.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Greg was working too hard to have enough rest. He spent the whole day shopping for a present.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,1,True,"{'1': np.float64(0.665410558746814), '2': np.float64(0.33458944125318596)}",0.33458944125318596,1,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,37,Ellen was not able to eat breakfast before work. She had a heated discussion until midnight.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Ellen was not able to eat breakfast before work. She had a heated discussion until midnight.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.4785288375393227), '2': np.float64(0.5214711624606773)}",0.5214711624606773,2,True,Correct,open-instruct-pythia-6.9b-tulu
+CIV,38,Lisa commuted to her office an hour each way. The water spilled onto the expensive carpet.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Lisa commuted to her office an hour each way. The water spilled onto the expensive carpet.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.43974734636673746), '2': np.float64(0.5602526536332625)}",0.43974734636673746,2,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,39,"Jerry read the copy of his manuscript. Frantically, he searched through the medicine cabinet.","[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jerry read the copy of his manuscript. Frantically, he searched through the medicine cabinet.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",1,2,True,"{'1': np.float64(0.38306416868055515), '2': np.float64(0.6169358313194448)}",0.38306416868055515,2,False,IncorrectCoherent,open-instruct-pythia-6.9b-tulu
+CIV,40,Cleo brushed against a table with a vase on it. She decided to study harder to catch up.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Cleo brushed against a table with a vase on it. She decided to study harder to catch up.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",1,2,True,"{'1': np.float64(0.32252598306437275), '2': np.float64(0.6774740169356274)}",0.6774740169356274,2,True,Correct,open-instruct-pythia-6.9b-tulu
